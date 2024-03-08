@@ -6,7 +6,7 @@ import group3 from '../assets/images/group3.png'
 function WhyUs() {
   return (
     <>
-    <div className="row pt-5">
+    <div className="row pt-5" data-aos="zoom-in-up">
         <div className="choose col-md-6">
             <h2 className='pb-2'>WHY CHOOSE US?</h2>
             <div className="select d-flex column-gap-3">

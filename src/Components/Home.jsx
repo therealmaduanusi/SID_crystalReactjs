@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
     <div className="container-fluid home-container text-white text-center">
-      <div className="container pt-5 lh-lg">
+      <div className="container pt-5 lh-lg" data-aos="fade-up">
         <h1>
           Easy & Quick Cargo Shipping Services
         </h1>
@@ -19,7 +19,7 @@ function Home() {
       </div>
     </div>
 
-    <div className="container pt-4">
+    <div className="container pt-4" data-aos="fade-up">
       <div className="text-center">
         <h2>Welcome to Crystal Shipment</h2>
         <img src={borderLine} alt="border line" />
@@ -48,10 +48,10 @@ function Home() {
         <h3>Covering All Logistics Fields</h3>
       </div>
     </div>
-    <div className="container">
+    <div className="container" data-aos="fade-up">
       <Card />
     </div>
-    <div className="container-fluid bg-warning p-5">
+    <div className="container-fluid bg-warning p-5" data-aos="zoom-in">
       <div className="container d-md-flex justify-content-between">
         <div className="wrapper">
           <h2>Delivering your world one package at a time</h2>

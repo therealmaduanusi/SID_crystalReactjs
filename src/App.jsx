@@ -11,8 +11,18 @@ import Home from './Components/Home.jsx';
 import Service from './Components/Service.jsx';
 import Tracking from './Components/Tracking.jsx';
 import Contact from './Components/Contact.jsx';
-
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function App() {
+  useEffect(() => {
+    AOS.init({
+      // Global settings for AOS (optional)
+      duration: 2000
+    });
+  }, []); // Ensure this useEffect runs only once after component mount
+
+
   return(
     <>
     <Header/>
