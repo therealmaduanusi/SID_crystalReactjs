@@ -56,6 +56,11 @@ textarea{
 .inputvalue .styleborder{
     border: none;
 }
+@media (max-width:767px) {
+    .inputvalue{
+        margin-top: 2rem;
+    }
+}
 ul{
     padding: 0;
 }
