@@ -19,15 +19,15 @@ function Home() {
       </div>
     </div>
 
-    <div className="container pt-4" data-aos="fade-up">
-      <div className="text-center">
+    <div className="container pt-4">
+      <div className="text-center" data-aos="fade-up">
         <h2>Welcome to Crystal Shipment</h2>
         <img src={borderLine} alt="border line" />
         <p>
           Crystal Shipment is more than logistics. We can also optimize your packaging,<br /> manage your materials sourcing, and so much more.
         </p>
       </div>
-      <div className='d-lg-flex p-2 gap-4'>
+      <div className='d-lg-flex p-2 gap-4' data-aos="fade-up">
         <img src={aboutImg} style={{width:'100%'}} alt="About Image"className='rounded' />
         <div className="content" style={{width:'100%'}}>
           <h5 className='text-danger'>TRANSPORTATION COMPANY</h5>
@@ -42,7 +42,7 @@ function Home() {
       </div>
     </div>
 
-    <div className="container">
+    <div className="container" data-aos="fade-up">
       <div className="content text-center pt-4">
         <h4 className='text-danger'>TYPES OF LOGISTICS</h4>
         <h3>Covering All Logistics Fields</h3>

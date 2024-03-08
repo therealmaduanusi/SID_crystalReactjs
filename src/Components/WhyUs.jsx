@@ -37,7 +37,7 @@ function WhyUs() {
                 </div>
             </div>
         </div>
-        <div className="inputvalue col-md-6 my-sm-4">
+        <div className="inputvalue col-md-6 my-sm-4" data-aos="zoom-in-up">
             <form action="">
                 <h2 className='pb-2'>REQUEST A QUOTE</h2>
                 <div className="inputvalues pb-3">
