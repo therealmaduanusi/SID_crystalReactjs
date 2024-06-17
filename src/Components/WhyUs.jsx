@@ -1,4 +1,3 @@
-import React from 'react'
 import group1 from '../assets/images/group1.png'
 import group2 from '../assets/images/group2.png'
 import group3 from '../assets/images/group3.png'
