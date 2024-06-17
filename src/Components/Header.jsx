@@ -1,5 +1,5 @@
-import React from 'react'
 import logImg from '../assets/images/img_logo/logo.png';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
   return (
@@ -11,10 +11,10 @@ function Header() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav mx-auto">
-            <a className="nav-link active text-danger" aria-current="page" href="/">Home</a>
-            <a className="nav-link" href="/service">service</a>
-            <a className="nav-link" href="/tracking">Tracking</a>
-            <a className="nav-link" href="/contact">Contact</a>
+            <NavLink  className="nav-link" aria-current="page" to='/'>Home</NavLink>
+            <NavLink className={`nav-link`} to="/service">service</NavLink>
+            <NavLink className={`nav-link`} to="/tracking">Tracking</NavLink>
+            <NavLink className={`nav-link`} to="/contact">Contact</NavLink>
           </div>
           <button className="btn bg-danger text-white">Request Quote</button>
         </div>

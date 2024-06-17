@@ -1,85 +1,73 @@
-.imgpic{
-    width: 100%;
-    border-radius: 50%;
+.imgpic {
+  width: 100%;
+  border-radius: 50%;
 }
-
-/* .card{
-    max-width: 250px;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.236);
-    font-family: arial, sans-serif;
-    display: inline-block;
-} */
-
-/* h2{
-    color: rgb(51, 51, 51);
-} */
-
 
 /* Home Style */
-.home-container{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('./assets/images/bg-img.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 550px;
-    display: grid;
-    place-content: center;
+nav .active {
+  color: #e71800 !important;
+}
+
+.home-container {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url("./assets/images/bg-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 550px;
+  display: grid;
+  place-content: center;
 }
 @media (max-width: 1000px) {
-    .content{
-        margin-top: 20px;
-    }
-
+  .content {
+    margin-top: 20px;
+  }
 }
-.inputvalues{
-    display: flex;
-    column-gap: 10px;
-    width: 100%;
+.inputvalues {
+  display: flex;
+  column-gap: 10px;
+  width: 100%;
 }
-.inputs{
-    width: 100%;
+.inputs {
+  width: 100%;
 }
-.inputs > input{
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px 20px;
-    width: 100%;
+.inputs > input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 100%;
 }
-textarea{
-    border-radius: 5px;
-    resize: none;
-    padding: 10px 20px;
-    width: 100%;
+textarea {
+  border-radius: 5px;
+  resize: none;
+  padding: 10px 20px;
+  width: 100%;
 }
-.inputvalue .styleborder{
-    border: none;
+.inputvalue .styleborder {
+  border: none;
 }
-@media (max-width:767px) {
-    .inputvalue{
-        margin-top: 2rem;
-    }
+@media (max-width: 767px) {
+  .inputvalue {
+    margin-top: 2rem;
+  }
 }
-ul{
-    padding: 0;
+ul {
+  padding: 0;
 }
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 
 /* service */
-.service-bg-img{
-    background-image: url('./assets/images/serviceImg-bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 196px;
+.service-bg-img {
+  background-image: url("./assets/images/serviceImg-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 196px;
 }
-.redborder{
-    background-color: #E71800;
+.redborder {
+  background-color: #e71800;
 }
-
-
-/* body{
-    background-color: aqua;
-} */
